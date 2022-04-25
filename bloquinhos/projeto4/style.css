@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+#new-container {
+  display: flex;
+  width: 50vw;
+  align-self: flex-start;
+  justify-content: space-between;
+}
+
+#first-box {
+  width: 40px;
+  height: 40px;
+  background-color: #c4c4c4;
+}
+
+#second-box {
+  width: 40px;
+  height: 40px;
+  background-color: #aa1122;
+}
+
+#third-box {
+  width: 40px;
+  height: 40px;
+  background-color: #f19000;
+}
+
+#fourth-box {
+  width: 40px;
+  height: 40px;
+  background-color: #c78800;
+  opacity: 0.3;
+}
